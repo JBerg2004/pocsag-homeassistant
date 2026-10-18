@@ -15,7 +15,7 @@ tools/sync-core.sh              Core aus dem Windows-Projekt neu übernehmen
 ## Über GitHub installieren
 
 1. **Einstellungen → Apps → App-Store**, oben rechts **⋮ → Repositories**.
-2. `https://github.com/JBerg2004/pocsag-homeassistant-` eintragen und **Hinzufügen**.
+2. `https://github.com/JBerg2004/pocsag-homeassistant` eintragen und **Hinzufügen**.
 3. **POCSAG Decoder** erscheint im App-Store → **Installieren**.
    Beim ersten Mal baut Home Assistant die App selbst; das dauert einige Minuten.
 4. Weiter wie in [DOCS.md](pocsag_decoder/DOCS.md) beschrieben.
