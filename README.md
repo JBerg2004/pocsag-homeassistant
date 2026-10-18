@@ -12,9 +12,17 @@ tests/                          Tests des Dienstes
 tools/sync-core.sh              Core aus dem Windows-Projekt neu übernehmen
 ```
 
-## Als lokale App installieren
+## Über GitHub installieren
 
-Solange das GitHub-Projekt privat ist, wird die App lokal installiert:
+1. **Einstellungen → Apps → App-Store**, oben rechts **⋮ → Repositories**.
+2. `https://github.com/JBerg2004/pocsag-homeassistant-` eintragen und **Hinzufügen**.
+3. **POCSAG Decoder** erscheint im App-Store → **Installieren**.
+   Beim ersten Mal baut Home Assistant die App selbst; das dauert einige Minuten.
+4. Weiter wie in [DOCS.md](pocsag_decoder/DOCS.md) beschrieben.
+
+Neue Versionen erscheinen dann als Update in Home Assistant.
+
+## Als lokale App installieren (ohne GitHub)
 
 1. In Home Assistant die App **Samba share** (oder **Terminal & SSH**) installieren.
 2. Den Ordner `pocsag_decoder` nach `\\homeassistant\addons\pocsag_decoder` kopieren
@@ -32,6 +40,6 @@ dotnet test
 ```
 
 Für eine neue Version `version` in `pocsag_decoder/config.yaml` und `<Version>` im Service-Projekt erhöhen,
-dann in Home Assistant auf **Neu bauen** bzw. **Aktualisieren** gehen.
+und hochladen; Home Assistant bietet danach das Update an.
 
 Echte Sicherungen, RIC-Listen und Aufzeichnungen gehören nicht in dieses Projekt (siehe `.gitignore`).
