@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <RootNamespace>PocsagDecoder.Service</RootNamespace>
     <AssemblyName>pocsag-decoder</AssemblyName>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 

@@ -5,7 +5,7 @@ Eigenes Projekt neben dem Windows-Programm. Es enthält die Home-Assistant-App (
 
 ```
 pocsag_decoder/                 die App (diesen Ordner nach /addons kopieren)
-  config.yaml, build.yaml, Dockerfile, DOCS.md, translations/
+  config.yaml, Dockerfile, DOCS.md, translations/
   src/PocsagDecoder.Core/       gemeinsame Logik, Kopie aus dem Windows-Projekt
   src/PocsagDecoder.Service/    Hintergrunddienst
 tests/                          Tests des Dienstes

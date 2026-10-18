@@ -1,5 +1,9 @@
 # Änderungen
 
+## 0.1.1
+
+- build.yaml entfernt (von Home Assistant nicht mehr unterstützt), das Basis-Image steht jetzt im Dockerfile.
+
 ## 0.1.0
 
 - Erste Version: Empfang mit RTL-SDR, Telegrammereignisse und Schnittstellen aus der Sicherung des Windows-Programms,
