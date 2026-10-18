@@ -1,0 +1,33 @@
+name: POCSAG Decoder
+version: "0.1.0"
+slug: pocsag_decoder
+description: Empfängt POCSAG-Alarmierungen mit einem RTL-SDR-Stick und leitet sie wie das Windows-Programm weiter.
+url: https://github.com/JBerg2004/pocsag-decoder
+arch:
+  - amd64
+init: false
+startup: application
+boot: auto
+usb: true
+homeassistant_api: true
+map:
+  - type: share
+    read_only: false
+options:
+  settings_file: /share/pocsag/settings.json
+  frequency_mhz: 0
+  gain: ""
+  ha_events: alle
+  ha_sensor: true
+  log_to_csv: true
+  log_directory: /share/pocsag/logs
+schema:
+  settings_file: str
+  frequency_mhz: float(0,2000)
+  gain: str?
+  ppm: int(-200,200)?
+  device_index: int(0,9)?
+  ha_events: list(alle|treffer|aus)
+  ha_sensor: bool
+  log_to_csv: bool
+  log_directory: str

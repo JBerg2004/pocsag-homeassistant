@@ -1,0 +1,10 @@
+bin/
+obj/
+*.user
+# Echte Einstellungen, RIC-Listen und Mitschnitte gehören nicht ins Projekt.
+settings*.json
+*.csv
+*.csv.gz
+*.ini
+mitschnitt*
+!pocsag_decoder/translations/*

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pocsag_decoder", "pocsag_decoder", "{4708516D-8098-45E8-B7D6-A2341545F3AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{208C9091-FD29-4788-947C-D4E4F8AD5641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocsagDecoder.Core", "pocsag_decoder\src\PocsagDecoder.Core\PocsagDecoder.Core.csproj", "{5A46E5FF-54CB-4622-9B64-9CD7FA45EF63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocsagDecoder.Service", "pocsag_decoder\src\PocsagDecoder.Service\PocsagDecoder.Service.csproj", "{8A804B04-E4D5-4133-ADCB-13BD17235C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7179D4E2-296D-4CCD-8C93-C89D12D85705}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PocsagDecoder.Service.Tests", "tests\PocsagDecoder.Service.Tests\PocsagDecoder.Service.Tests.csproj", "{AF7037B2-E11F-4C5C-A4AE-BBE99232F8DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A46E5FF-54CB-4622-9B64-9CD7FA45EF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A46E5FF-54CB-4622-9B64-9CD7FA45EF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A46E5FF-54CB-4622-9B64-9CD7FA45EF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A46E5FF-54CB-4622-9B64-9CD7FA45EF63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A804B04-E4D5-4133-ADCB-13BD17235C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A804B04-E4D5-4133-ADCB-13BD17235C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A804B04-E4D5-4133-ADCB-13BD17235C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A804B04-E4D5-4133-ADCB-13BD17235C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7037B2-E11F-4C5C-A4AE-BBE99232F8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7037B2-E11F-4C5C-A4AE-BBE99232F8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7037B2-E11F-4C5C-A4AE-BBE99232F8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7037B2-E11F-4C5C-A4AE-BBE99232F8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{208C9091-FD29-4788-947C-D4E4F8AD5641} = {4708516D-8098-45E8-B7D6-A2341545F3AD}
+		{5A46E5FF-54CB-4622-9B64-9CD7FA45EF63} = {208C9091-FD29-4788-947C-D4E4F8AD5641}
+		{8A804B04-E4D5-4133-ADCB-13BD17235C59} = {208C9091-FD29-4788-947C-D4E4F8AD5641}
+		{AF7037B2-E11F-4C5C-A4AE-BBE99232F8DE} = {7179D4E2-296D-4CCD-8C93-C89D12D85705}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+configuration:
+  settings_file:
+    name: Sicherung
+    description: Sicherung (settings.json) aus dem Windows-Programm, z. B. über die Samba-App in den Ordner share/pocsag kopiert.
+  frequency_mhz:
+    name: Frequenz (MHz)
+    description: 0 = Frequenz aus der Sicherung.
+  gain:
+    name: Verstärkung (dB)
+    description: Leer = aus der Sicherung, „auto“ = automatisch, sonst z. B. 38.6.
+  ppm:
+    name: Frequenzkorrektur (ppm)
+    description: Leer = aus der Sicherung.
+  device_index:
+    name: Stick-Nummer
+    description: Nur nötig, wenn mehrere RTL-SDR-Sticks angeschlossen sind. Leer = aus der Sicherung.
+  ha_events:
+    name: Ereignisse in Home Assistant
+    description: „alle“ = jedes Telegramm als Ereignis pocsag_message, „treffer“ = nur Telegramme mit Telegrammereignis, ohne Wiederholungen, „aus“ = keine.
+  ha_sensor:
+    name: Sensor „letzte Meldung“
+    description: Hält sensor.pocsag_letzte_meldung mit dem zuletzt empfangenen Telegramm aktuell.
+  log_to_csv:
+    name: Aufzeichnung
+    description: Jedes Telegramm wie im Windows-Programm in eine Tagesdatei schreiben.
+  log_directory:
+    name: Ordner der Aufzeichnung
