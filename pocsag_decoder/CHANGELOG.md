@@ -1,5 +1,9 @@
 # Änderungen
 
+## 0.1.3
+
+- BosMon-Netzwerk schickt die Nachricht mit ihren Leerzeichen am Anfang und Ende, wie das echte BosMon (Stand Windows-Programm 1.5.2).
+
 ## 0.1.2
 
 - BosMon-Netzwerk wie das echte BosMon: eigener SubRIC-Kurztext im Feld `short` (aus der Sicherung, Dialog „SubRICs zuordnen“), reiner Tonruf mit leerer Nachricht.
