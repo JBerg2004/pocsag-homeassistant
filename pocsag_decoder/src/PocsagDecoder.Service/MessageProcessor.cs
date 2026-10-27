@@ -39,6 +39,7 @@ public sealed class MessageProcessor
     {
         _settings = settings;
         _directory.SetGlobalSubRics(settings.GlobalSubRics);
+        _directory.SetGlobalSubRicShorts(settings.GlobalSubRicShorts);
         _directory.Rebuild(settings.RicEntries);
         _duplicates.Window = TimeSpan.FromSeconds(Math.Max(0, settings.DuplicateWindowSeconds));
         _repeatMarker.Window = _duplicates.Window;
