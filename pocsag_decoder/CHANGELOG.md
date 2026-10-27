@@ -1,5 +1,10 @@
 # Änderungen
 
+## 0.1.2
+
+- BosMon-Netzwerk wie das echte BosMon: eigener SubRIC-Kurztext im Feld `short` (aus der Sicherung, Dialog „SubRICs zuordnen“), reiner Tonruf mit leerer Nachricht.
+- Gemeinsame Programmlogik auf den Stand des Windows-Programms 1.5.1 gebracht.
+
 ## 0.1.1
 
 - build.yaml entfernt (von Home Assistant nicht mehr unterstützt), das Basis-Image steht jetzt im Dockerfile.
